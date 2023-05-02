@@ -12,15 +12,19 @@ final class HomeViewModelTests: XCTestCase {
 
     var viewModel: HomeViewModel!
     var mockService: MockHomeService!
+    var mockDelegate: MockHomeViewModelDelegate!
 
     override func setUpWithError() throws {
         mockService =  MockHomeService()
         viewModel = HomeViewModel(service: mockService)
+        mockDelegate = MockHomeViewModelDelegate()
+        viewModel.delegate(delegate: mockDelegate)
     }
 
     override func tearDownWithError() throws {
         mockService = nil
         viewModel = nil
+        mockDelegate = nil 
     }
 
     func testFetchRequestSuccess() throws {
@@ -32,6 +36,7 @@ final class HomeViewModelTests: XCTestCase {
 
         XCTAssertEqual(viewModel?.numberOfRowsInSection, list.count)
         XCTAssertEqual(viewModel?.loadCurrentCategory(indexPath: IndexPath(row: 0, section: 0)), list[0])
+        XCTAssertTrue(mockDelegate.successCalled)
     }
 
     func testFetchRequestFailure() throws {

@@ -14,7 +14,7 @@
 		29AD4E852A013EE00058D60D /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AD4E842A013EE00058D60D /* HomeViewModelTests.swift */; };
 		34FBA54F2983DBB600021E82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FBA54E2983DBB600021E82 /* AppDelegate.swift */; };
 		34FBA5512983DBB600021E82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FBA5502983DBB600021E82 /* SceneDelegate.swift */; };
-		34FBA5532983DBB600021E82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FBA5522983DBB600021E82 /* ViewController.swift */; };
+		34FBA5532983DBB600021E82 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FBA5522983DBB600021E82 /* HomeViewController.swift */; };
 		34FBA5582983DBB700021E82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34FBA5572983DBB700021E82 /* Assets.xcassets */; };
 		34FBA58A2983DC4F00021E82 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FBA5842983DC4F00021E82 /* HomeViewModel.swift */; };
 		34FBA58C2983DC4F00021E82 /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FBA5872983DC4F00021E82 /* HomeService.swift */; };
@@ -43,7 +43,7 @@
 		34FBA54B2983DBB600021E82 /* Chuck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chuck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34FBA54E2983DBB600021E82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34FBA5502983DBB600021E82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		34FBA5522983DBB600021E82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34FBA5522983DBB600021E82 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		34FBA5572983DBB700021E82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34FBA55C2983DBB700021E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34FBA5612983DBB700021E82 /* ChuckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChuckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -165,7 +165,7 @@
 		34FBA5972983E18500021E82 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				34FBA5522983DBB600021E82 /* ViewController.swift */,
+				34FBA5522983DBB600021E82 /* HomeViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -349,7 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34FBA58A2983DC4F00021E82 /* HomeViewModel.swift in Sources */,
-				34FBA5532983DBB600021E82 /* ViewController.swift in Sources */,
+				34FBA5532983DBB600021E82 /* HomeViewController.swift in Sources */,
 				34FBA54F2983DBB600021E82 /* AppDelegate.swift in Sources */,
 				34FBA5512983DBB600021E82 /* SceneDelegate.swift in Sources */,
 				34FBA58C2983DC4F00021E82 /* HomeService.swift in Sources */,
