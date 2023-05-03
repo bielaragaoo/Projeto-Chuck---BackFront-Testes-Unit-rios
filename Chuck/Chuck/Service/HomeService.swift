@@ -7,11 +7,11 @@
 import Foundation
 import Alamofire
 
-protocol HomeServiceDelegate: AnyObject {
+protocol HomeServiceProtocol: AnyObject {
     func getHome(completion: @escaping (Result<[String], Error>) -> Void)
 }
 
-class HomeService: HomeServiceDelegate {
+class HomeService: HomeServiceProtocol {
     
     func getHome(completion: @escaping (Result<[String], Error>) -> Void) {
         let url: String = "https://api.chucknorris.io/jokes/categories"

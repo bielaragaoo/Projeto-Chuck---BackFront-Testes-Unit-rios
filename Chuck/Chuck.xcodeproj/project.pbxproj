@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		108C28B196B8D70E3F6D83C8 /* Pods_ChuckTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD30C2AEBFB67CDDFEEBC5C7 /* Pods_ChuckTests.framework */; };
+		29367B632A028707000346E5 /* HomeViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29367B622A028707000346E5 /* HomeViewControllerTests.swift */; };
 		295BBC1A29F9B03C0075F615 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 295BBC1929F9B03C0075F615 /* Main.storyboard */; };
 		295BBC1C29F9B0570075F615 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 295BBC1B29F9B0570075F615 /* LaunchScreen.storyboard */; };
 		295BBC1E29FAB7330075F615 /* HomeServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295BBC1D29FAB7330075F615 /* HomeServiceTests.swift */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		05198E8D763B0801FE11ACE2 /* Pods_Chuck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chuck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29367B622A028707000346E5 /* HomeViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerTests.swift; sourceTree = "<group>"; };
 		295BBC1929F9B03C0075F615 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		295BBC1B29F9B0570075F615 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		295BBC1D29FAB7330075F615 /* HomeServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeServiceTests.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				34FBA5952983E16500021E82 /* ChuckTests.swift */,
 				295BBC1D29FAB7330075F615 /* HomeServiceTests.swift */,
 				29AD4E842A013EE00058D60D /* HomeViewModelTests.swift */,
+				29367B622A028707000346E5 /* HomeViewControllerTests.swift */,
 			);
 			path = ChuckTests;
 			sourceTree = "<group>";
@@ -364,6 +367,7 @@
 				295BBC1E29FAB7330075F615 /* HomeServiceTests.swift in Sources */,
 				34FBA5962983E16500021E82 /* ChuckTests.swift in Sources */,
 				29AD4E852A013EE00058D60D /* HomeViewModelTests.swift in Sources */,
+				29367B632A028707000346E5 /* HomeViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

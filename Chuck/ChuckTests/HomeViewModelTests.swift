@@ -62,7 +62,7 @@ class MockHomeViewModelDelegate: HomeViewModelProtocol {
     }
 }
 
-class MockHomeService: HomeServiceDelegate {
+class MockHomeService: HomeServiceProtocol {
     var result: Result<[String], Error> = .success([])
     func getHome(completion: @escaping (Result<[String], Error>) -> Void) {
         completion(result)

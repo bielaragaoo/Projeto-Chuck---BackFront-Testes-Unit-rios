@@ -15,9 +15,9 @@ class HomeViewModel {
 
     private var categoryList: [String] = []
     private weak var delegate: HomeViewModelProtocol?
-    private var service: HomeServiceDelegate
+    private var service: HomeServiceProtocol
     
-    init(service: HomeServiceDelegate) {
+    init(service: HomeServiceProtocol) {
         self.service = service
     }
     
